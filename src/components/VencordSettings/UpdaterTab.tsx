@@ -214,14 +214,14 @@ function Updater() {
             >
                 Automatically update
             </Switch>
-            <Switch
+            {/* <Switch
                 value={settings.autoUpdateNotification}
                 onChange={(v: boolean) => settings.autoUpdateNotification = v}
                 note="Shows a notification when Vencord automatically updates"
                 disabled={!settings.autoUpdate}
             >
                 Get notified when an automatic update completes
-            </Switch>
+            </Switch> */}
 
             <Forms.FormTitle tag="h5">Repo</Forms.FormTitle>
 
