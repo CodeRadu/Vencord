@@ -3,8 +3,8 @@
 // @description     A Discord client mod - Web version
 // @version         %version%
 // @author          Vendicated (https://github.com/Vendicated)
-// @namespace       https://github.com/Vendicated/Vencord
-// @supportURL      https://github.com/Vendicated/Vencord
+// @namespace       https://github.com/CodeRadu/Vencord
+// @supportURL      https://github.com/CodeRadu/Vencord
 // @icon            https://raw.githubusercontent.com/Vendicated/Vencord/refs/heads/main/browser/icon.png
 // @license         GPL-3.0
 // @match           *://*.discord.com/*

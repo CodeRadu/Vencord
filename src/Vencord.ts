@@ -98,24 +98,24 @@ async function init() {
 
             if (Settings.autoUpdate) {
                 await update();
-                if (Settings.autoUpdateNotification)
-                    setTimeout(() => showNotification({
-                        title: "Vencord has been updated!",
-                        body: "Click here to restart",
-                        permanent: true,
-                        noPersist: true,
-                        onClick: relaunch
-                    }), 10_000);
+                // if (Settings.autoUpdateNotification)
+                //     setTimeout(() => showNotification({
+                //         title: "Vencord has been updated!",
+                //         body: "Click here to restart",
+                //         permanent: true,
+                //         noPersist: true,
+                //         onClick: relaunch
+                //     }), 10_000);
                 return;
             }
 
-            setTimeout(() => showNotification({
-                title: "A Vencord update is available!",
-                body: "Click here to view the update",
-                permanent: true,
-                noPersist: true,
-                onClick: openUpdaterModal!
-            }), 10_000);
+            // setTimeout(() => showNotification({
+            //     title: "A Vencord update is available!",
+            //     body: "Click here to view the update",
+            //     permanent: true,
+            //     noPersist: true,
+            //     onClick: openUpdaterModal!
+            // }), 10_000);
         } catch (err) {
             UpdateLogger.error("Failed to check for updates", err);
         }
