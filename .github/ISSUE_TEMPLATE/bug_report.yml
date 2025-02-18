@@ -7,24 +7,9 @@ body:
     - type: markdown
       attributes:
           value: |
-              # READ THIS BEFORE OPENING AN ISSUE
+              ![Are you a developer? No? This form is not for you!](https://github.com/Vendicated/Vencord/blob/main/.github/ISSUE_TEMPLATE/developer-banner.png?raw=true)
 
-              This form is ONLY FOR DEVELOPERS. YOUR ISSUE WILL BE CLOSED AND YOU WILL POSSIBLY BE BLOCKED FROM THE REPOSITORY IF YOU IGNORE THIS.
-
-              DO NOT USE THIS FORM, unless
-              - you are a vencord contributor
-              - you were given explicit permission to use this form by a moderator in our support server
-
-              DO NOT USE THIS FORM FOR SECURITY RELATED ISSUES. [CREATE A SECURITY ADVISORY INSTEAD.](https://github.com/CodeRadu/Vencord/security/advisories/new)
-
-    - type: input
-      id: discord
-      attributes:
-          label: Discord Account
-          description: Who on Discord is making this request? Not required but encouraged for easier follow-up
-          placeholder: username#0000
-      validations:
-          required: false
+              GitHub Issues are for development, not support! Please use our [support server](https://vencord.dev/discord) unless you are a Vencord Developer.
 
     - type: textarea
       id: bug-description
@@ -77,5 +62,5 @@ body:
           options:
               - label: I am using Discord Stable or tried on Stable and this bug happens there as well
                 required: true
-              - label: I have read the requirements for opening an issue above
+              - label: I am a Vencord Developer
                 required: true
